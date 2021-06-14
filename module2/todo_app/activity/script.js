@@ -28,7 +28,7 @@ addTodoButton.addEventListener("click" , function(){
     //<div class="todo=item"> </div>
 
     let pTag=document.createElement("p");
-    pTag.classList.add("todo-input");
+    pTag.classList.add("todo");
     pTag.textContent=todo;
     //<p class="todo-input">Learn CSS </p>
 
